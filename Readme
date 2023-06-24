@@ -1,0 +1,5 @@
+установить   на машину  docker-ci 
+скопировать файл  Dockerfile  в корень 
+фаил  index.html  в корень
+произвести создание image  docker build   -t  nginx .  (nginx название image)
+запустить контейнер docker run -d -p 8080:80 nginx
